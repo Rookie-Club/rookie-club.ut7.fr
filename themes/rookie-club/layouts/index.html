@@ -1,0 +1,14 @@
+<!doctype html>
+
+<html lang="fr">
+  <meta charset="utf-8">
+  <title>Rookie Club</title>
+
+  {{ range .Data.Pages }}
+  {{if eq .Type "index" }}
+  {{.Content}}
+  {{end}}
+  {{ end }}
+</html>
+
+

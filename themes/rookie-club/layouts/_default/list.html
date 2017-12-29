@@ -1,0 +1,12 @@
+<!doctype html>
+
+<html lang="fr">
+  <meta charset="utf-8">
+  <title>Rookie Club</title>
+
+  <ul>
+  {{ range .Data.Pages.ByDate.Reverse }}
+  <li><a href="{{ .Permalink}}">{{ .Title }}</a></li>
+  {{ end }}
+  </ul>
+</html>

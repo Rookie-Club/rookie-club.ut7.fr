@@ -1,0 +1,18 @@
+name = "Rookie Club"
+license = "CC0"
+licenselink = "https://github.com/rookie-club/rookie-club/blob/master/LICENSE.md"
+description = ""
+homepage = "http://rookie-club.github.io/"
+tags = []
+features = []
+min_version = "0.30.2"
+
+[author]
+  name = ""
+  homepage = ""
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
