@@ -7,9 +7,7 @@ title: Rookie Club
 
 Bienvenue sur le journal du Rookie club. C'est communauté d'apprentissage qui se retrouve une fois par semaine pour apprendre à programmer.
 
-<p>La communauté est accueilli chez [/ut7](https://ut7.fr)
-
-[Les journaux des sessions](/journaux).
+La communauté est accueilli chez [/ut7](https://ut7.fr)
 
 ## Participer
 
@@ -22,5 +20,4 @@ Si vous voulez :
 envoyez nous en message [training@ut7.fr](mailto:training@ut7.fr).
 
 Au rookie club vous aurez besoin de [prérequis technique](les-prérequis).
-
 
