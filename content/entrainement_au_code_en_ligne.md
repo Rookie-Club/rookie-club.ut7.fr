@@ -34,5 +34,8 @@ _les cours peuvent comporter des exercices_
 - http://tryruby.org
 - http://asm.sourceforge.net/intro/Assembly-Intro.html
 
+Des outils de programmation qui aide pour démarrer
+- http://www.pythontutor.com/
+
 Un jeu qui devient payant
 - http://railsforzombies.org/
