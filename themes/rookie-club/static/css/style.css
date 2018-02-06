@@ -1,0 +1,11 @@
+
+body {
+  margin:2em;
+  padding: 0;
+}
+
+article {
+  max-width: 50em;
+  margin: auto;
+}
+

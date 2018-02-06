@@ -1,14 +1,15 @@
-<!doctype html>
+{{ partial "header" . }}
+<article>
 
-<html lang="fr">
-  <meta charset="utf-8">
-  <title>{{ .Title | markdownify }} - Rookie Club</title>
+<title>{{ .Title | markdownify }} - Rookie Club</title>
 
-  <h1>
-    {{ .Title | markdownify }}
-    {{ with .Params.subtitle }}<br/><small>{{ . }}</small>{{ end }}
-  </h1>
+<h1>
+  {{ .Title | markdownify }}
+  {{ with .Params.subtitle }}<br/><small>{{ . }}</small>{{ end }}
+</h1>
 
-  {{ .Content }}
+{{ .Content }}
+<article>
 
-</html>
+
+{{ partial "footer" . }}
