@@ -1,9 +1,6 @@
 ---
 type: index
-title: Rookie Club
 ---
-
-# Rookie Club
 
 Bienvenue sur le journal du Rookie club. C'est communauté d'apprentissage qui se retrouve une fois par semaine pour apprendre à programmer.
 
