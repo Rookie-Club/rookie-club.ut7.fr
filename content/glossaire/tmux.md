@@ -1,3 +1,7 @@
+---
+title: Tmux
+---
+
 Les trucs pour partager une session tmux
 
 <pre>

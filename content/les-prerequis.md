@@ -1,5 +1,4 @@
 - Un ordinateur portable.
-- Un terminal unix (pour windows, installer [cygwin](https://www.cygwin.com/) par exemple).
+- Une clef [SSH](http://fr.wikipedia.org/wiki/OpenSSH) publique.
 - [Git](https://git-scm.com/) installé.
 - Un compte [github](https://github.com), en attendant autre chose.
-- Une clef [SSH](http://fr.wikipedia.org/wiki/OpenSSH) publique.

@@ -2,7 +2,7 @@
 type: index
 ---
 
-Bienvenue sur le journal du Rookie club. C'est communauté d'apprentissage qui se retrouve une fois par semaine pour apprendre à programmer.
+Bienvenue sur le journal du Rookie club. C'est une communauté d'apprentissage qui se retrouve une fois par semaine pour apprendre à programmer ou juste progresser dans sa pratique de la programmation.
 
 La communauté est accueilli chez [/ut7](https://ut7.fr)
 
@@ -16,5 +16,12 @@ Si vous voulez :
 
 envoyez nous en message [training@ut7.fr](mailto:training@ut7.fr).
 
-Au rookie club vous aurez besoin de [prérequis technique](les-prerequis).
+## Le Rookie Club
 
+Au rookie club vous aurez besoin de [prérequis technique](les-prerequis). Certains ont commencé un [glossaire](glossaire), et d'autres, une page sur les [outils](outils).
+
+A force de parler de recrutement, nous avons commencé à compiler des informations sur une page dédiée regroupange des [articles autour du recrutement](article-autour-du-recrutement).
+
+De la même manière, beaucoup de membre de la communauté s'entraine, ou se sont entrainé, en ligne, en faisant quelques exercices ou jeux de programmation. Nous avons regroupés certains de ces sites sur une page dédié à l'[entrainement au code en ligne](entrainement_au_code_en_ligne).
+
+Quand on apprend à programmer, il faut choisir un langage. La meilleure option est celle qui consiste à en choisir un sur lequel une personne proche pourra vous aider. Ce qui est important ensuite, c'est de bien distinguer l'apprentissage de la programmation, et l'apprentissage d'un langage de programmation. Pour essayer d'aider à cette distinction, nous utilisons parfois une [fiche langage](fiche-langage) pour décrire ce qui est propre a un langage. Peut-être un jour écrirons nous le pendant pour la programmation...
