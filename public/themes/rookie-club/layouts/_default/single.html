@@ -1,0 +1,14 @@
+{{ partial "header" . }}
+
+<article>
+
+<h1>
+  {{ .Title | markdownify }}
+  {{ with .Params.subtitle }}<br/><small>{{ . }}</small>{{ end }}
+</h1>
+
+{{ .Content }}
+<article>
+
+
+{{ partial "footer" . }}

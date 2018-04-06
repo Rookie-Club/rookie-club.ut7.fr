@@ -1,0 +1,137 @@
+<!doctype html>
+
+<html lang="fr">
+  <meta charset="utf-8">
+  <title>Rookie Club</title>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <header><a href="/"><h1>Rookie Club</h1></a></header>
+
+
+
+
+<article>
+
+<h1>
+  Session du 26 août 2016
+  
+</h1>
+
+
+
+<h2 id="participants">Participants</h2>
+
+<ul>
+<li>Simon</li>
+<li>Yohann</li>
+<li>Hafid</li>
+<li>Mélanie</li>
+<li>Yannick</li>
+</ul>
+
+<h2 id="depuis-la-dernière-fois">Depuis la dernière fois</h2>
+
+<ul>
+<li>Simon a fait un peu de Lua pour piloter les robots tortues de Minecraft.</li>
+<li>Hafid toujours sponsorisé par MétéorJS, «normalement la semaine prochaine
+c&rsquo;est bon»&hellip;</li>
+<li>Yohann a fait pas mal de SQL / tuyauterie pour brancher les outils d&rsquo;analyse
+<a href="http://www.tableau.com/">Tableau</a>. Pb: c&rsquo;est pas du logiciel libre.</li>
+<li>Du coup, Yohann explore d&rsquo;autres outils :
+<a href="https://www.dasheroo.com/">Dasheroo</a>, <a href="https://fr.bimeanalytics.com/">Bime</a>.
+Obligé de s&rsquo;appuyer sur des outils clefs en main pour que les clients garde
+la main dessus.</li>
+<li>Yohann à fait un <em>plan de taggage</em>, c&rsquo;est placer des tags pour faire du
+suivi. Du coup, HTML, JavaScript.</li>
+<li>Yohann à rencontré aussi des gens qui font du PHP, c&rsquo;était intéressant.</li>
+<li>Mélanie continue ces entretiens.</li>
+<li>Yannick à fait du microservice en java chez un client.</li>
+<li>Yannick fait des test d&rsquo;acceptance avec FitNesse et du TDD avec JUnit.</li>
+</ul>
+
+<h2 id="ce-matin">Ce matin.</h2>
+
+<p>On fait une exploration de Lua.</p>
+
+<p>Permier debrief</p>
+
+<ul>
+<li>On a esquissé la fiche du langage <a href="http://lua.org">Lua</a>.</li>
+<li>On a vu 2 librairies de test unitaire : <code>luaunit</code> et <code>busted</code>.</li>
+<li>En regardant exercism.io, on a vu qu&rsquo;eux utilise busted, on a fait pareil.</li>
+<li>On a construit la base d&rsquo;execution d&rsquo;un test unitaire en Lua</li>
+<li>On fait du TDD, du coup on essaie de trouver comment écrire un test.</li>
+<li>Une fiche de langage c&rsquo;est répondre aux questions : C&rsquo;est quoi la famille ?
+(paradigme, typage), Ou lire la doc et comprendre les messages d&rsquo;erreur ?
+Comment executer un programme ? Comment utiliser des librairies exterieures ?
+Pourquoi ce langage a-t-il été crée, c&rsquo;est quoi son histoire ?</li>
+<li>Une librairie c&rsquo;est un regroupement de programme assemblé pour un objectif
+commun.</li>
+</ul>
+
+<p>Deuxième debrief de la matinée</p>
+
+<ul>
+<li>Découverte de la syntaxe du langage, ça ressemble à du JavaScript.</li>
+<li>Les cas de tests avec <code>busted</code> ressemble à <code>rspec</code> de Ruby.</li>
+<li>A priori pas trop de difficulté à aborder le langage.</li>
+<li>Simon a su faire la fonction assez facilement, sans avoir à apprendre le
+langage avant de coder.</li>
+<li>Le lua de ComputerCraft est vachement moins complet/libre/ouvert&hellip;</li>
+<li>On a vu une base de structure conditionnelle (branchement) <code>if letter == &quot;B&quot;
+then return &quot;chose&quot; end</code>.</li>
+<li>C&rsquo;est perturbant de ne pas programmer avec plusieurs fenêtres (c&rsquo;est
+déroutant).</li>
+</ul>
+
+<h2 id="cet-après-midi">Cet après midi</h2>
+
+<p>Premier debrief</p>
+
+<ul>
+<li>On continue avec Lua et le kata Diamant.</li>
+<li>Sentiment d&rsquo;être embourbé.</li>
+<li>En lua
+
+<ul>
+<li><code>&quot;une phrase se &quot; .. &quot;concatene avec des points&quot;</code>.</li>
+<li><code>arr = {&quot;a&quot;, &quot;b&quot;}; arr[1] == &quot;a&quot;</code>.</li>
+</ul></li>
+<li>La piste suivi n&rsquo;est peut-être pas la bonne, on essaie un petit pas, on
+patauge.</li>
+<li>Manque de vocabulaire pour expliquer à Mélanie le geste de faire ressembler
+le code pour supprimer la duplication.</li>
+<li>«on a peut-être trop divisé pour s&rsquo;y retrouver» &ndash;Mélanie</li>
+<li>Le geste a pris trop de temps ?</li>
+<li>Deux chemins suivi en même temps, pas de partage de plan dans l&rsquo;équipe ?</li>
+<li>Utiliser Mélanie comme scribe pour :
+
+<ul>
+<li>se forcer à partager les idées</li>
+<li>forcer Mélanie à coder avec ces deux mains sur le clavier</li>
+</ul></li>
+</ul>
+
+<p>Deuxième débrief</p>
+
+<ul>
+<li>En lua <code>table.concat({&quot;a&quot;, &quot;b&quot;}, &quot;---&quot;) == &quot;a---b&quot;</code>.</li>
+<li>REPL == Read Eval Print Loop.</li>
+<li>On a tourné autour du truc, mais sans penser au concat qui permet de
+débloquer.</li>
+<li>Un peu frustrant.</li>
+<li>en VI <code>dtx</code>, <code>I</code></li>
+<li>Identifier les constantes utiles au programme, et essayer d&rsquo;exprimer le reste
+à partir de ces constantes.</li>
+<li>«Difficulté à relier les indices proposé par Yannick et les trucs que j&rsquo;avais
+en tête» &ndash; Simon</li>
+<li>Après une tentative de refactoring échoué, on a pas persisté dans cette voie.</li>
+<li>Hafid aime bien Lua, et il va préparer ce Kata pour la semaine prochaine.</li>
+<li>On est fatigué par la chaleur.</li>
+</ul>
+
+<article>
+
+
+</html>
+

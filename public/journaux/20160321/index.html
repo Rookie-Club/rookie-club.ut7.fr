@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang="fr">
+  <meta charset="utf-8">
+  <title>Rookie Club</title>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <header><a href="/"><h1>Rookie Club</h1></a></header>
+
+
+
+
+<article>
+
+<h1>
+  Session du 21 mars 2016
+  
+</h1>
+
+
+
+<h2 id="quoi-de-neuf-depuis-la-dernière-fois">Quoi de neuf depuis la dernière fois</h2>
+
+<ul>
+<li>Hafid a refait un <a href="http://codingdojo.org/kata/RomanNumerals/">kata RomanToNumber</a> en Ruby</li>
+<li>Simon a refait un RomanToNumber en Python (pour revoir les étapdes du TDD)</li>
+<li>Yohann a fait du Natural Language Processing en R dans le cadre de cours qu&rsquo;il suit en ligne</li>
+<li>Yohann est plus à l&rsquo;aise avec Git</li>
+<li>Yannick a modifié l&rsquo;agenda pour passer à tous les vendredi.</li>
+</ul>
+
+<h2 id="ce-matin">Ce matin</h2>
+
+<p>On a envie de:
+- Lire du code
+- Voir/Faire du JavaScript
+- Voir Simon refaire le Roman To Number en python.</p>
+
+<p>Finalement, Simon a commencé, et nous avons tous participé. Ce que nous avons vu/revu/appris :</p>
+
+<ul>
+<li>La commande Vim <code>bn</code>, attention elle fonctionne aussi avec <code>bp</code></li>
+<li>Un fichier de test porte le nom avec un suffixe <code>_test</code> en général</li>
+<li>La classe de test à un nom qui fini par <code>Test</code> aussi</li>
+<li>Le fichier de test et le fichier de production sont séparés pour pouvoir utiliser celui de production sans les tests.</li>
+<li>Simon se souvient d&rsquo;avoir vu le jeu des <code>__main__</code></li>
+</ul>
+
+<p>On a ensuite lu du code de d3js, la <a href="https://github.com/mbostock/d3/blob/6b48969618e7ecea5ce279f1b8ba9555f91b5678/src/layout/hierarchy.js">fonction Hierarchy du fichier layout.js</a>. Ce que l&rsquo;on en retient :</p>
+
+<ul>
+<li>Incrémentation avant évaluation : <code>if (--n &gt; 0)</code></li>
+<li>Incrémentation après évaluation : <code>if (n-- &gt; 0)</code></li>
+<li>Boucle while avec condition avant execution <code>while (n &gt; 0) {  }</code></li>
+<li>Boucle while avec condition après execution <code>do {  } while (n &gt; 0)</code></li>
+<li><code>var maVar = un_truc || un_truc_par_defaut</code> qui affecte un truc par defaut si la première valeur est négative (<code>false</code>, <code>undefined</code>, <code>0</code>, <code>''</code>)</li>
+<li><code>if (maFunction) {}</code> condition vrai si la fonction est définie</li>
+<li><code>maFunction.call()</code>: le premier argument est un truc qui pourrait être le contexte, ou un truc dans le genre</li>
+<li><code>[1,2,3,4].pop()</code> qui permet de prendre le dernier élément du tableau</li>
+<li><strong>un mystère</strong> qu&rsquo;est ce que c&rsquo;est que cette syntaxe : <code>maVar = +maFunction.call(truc, arg) || 0;</code>, le <code>+</code> sert à quoi ?</li>
+<li><code>.push()</code> pour ajouter un élément à la fin d&rsquo;un tableau</li>
+<li><code>.sort()</code> et <code>.sort(monTriPerso)</code> pour trier un tableau</li>
+</ul>
+
+<p>Pour résoudre le mystère, nous avons :</p>
+
+<ul>
+<li>tenté un <code>git blame mon_fichier</code></li>
+<li>fait un <code>git log -p mon_fichier</code></li>
+<li>regardé tout les commit depuis le début pour retrouver l&rsquo;ajout de ce signe <code>+</code></li>
+<li>Puis regardé ce commit <code>git show 67ab76bcc15803843cd42013b194d8822fc7dd4b</code></li>
+<li>Puis testé les conversions de chaine en entier : <code>+'totot' == NaN</code>, <code>+'4' == 4</code>, <code>+4 == 4</code></li>
+</ul>
+
+<h2 id="cet-après-midi">Cet après midi</h2>
+
+<ul>
+<li>On a fait de la cuisine à code</li>
+<li>Création d&rsquo;un formulaire en HTML / JavaScript pour convertir romain en arabe</li>
+<li>Les trop grand pas font tomber même les meilleurs</li>
+<li><code>.value</code> pour récupérer la valeur d&rsquo;un champ input</li>
+<li>Compréhension de l&rsquo;intérêt de JavaScript</li>
+<li>On peut utiliser directement l&rsquo;ID d&rsquo;un élément dans le JavaScript, plutôt que de passer par <code>document.getElementById(&quot;monid&quot;)</code></li>
+<li>Difficile de montrer quelque chose que l&rsquo;on ne maîtrise pas vraiment</li>
+</ul>
+
+<article>
+
+
+</html>
+

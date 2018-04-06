@@ -1,0 +1,130 @@
+<!doctype html>
+
+<html lang="fr">
+  <meta charset="utf-8">
+  <title>Rookie Club</title>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <header><a href="/"><h1>Rookie Club</h1></a></header>
+
+
+
+
+<article>
+
+<h1>
+  Session du 29 juillet 2016
+  
+</h1>
+
+
+
+<h2 id="participants">Participants</h2>
+
+<ul>
+<li>Hafid</li>
+<li>Simon</li>
+<li>Yohann</li>
+<li>Yannick</li>
+</ul>
+
+<h2 id="depuis-la-dernière-fois">Depuis la dernière fois</h2>
+
+<ul>
+<li>Yohann à fait une formation sur la mise en place de tag google analytics. C&rsquo;était intéressant de se retrouver dans la peau du sachant.</li>
+<li>Yannick a découvert l&rsquo;endroit où sont caché les chaussettes de TMUX.</li>
+<li>Hafid a perdu un t-shirt dans une machine (à laver)</li>
+<li>Hafid a continuer à faire sa mission MétéorJS. Il a appris à faire du drag&amp;drop avec HTML5 (et javascript).- Simon en atelier Arduino, il a donner des cours de code à Thomas ! Dur d&rsquo;expliquer les principes d&rsquo;une boucle.</li>
+<li>Yohann a continuer à faire du HTML/Css. Impression d&rsquo;avoir progressé dans la méthodologie.</li>
+<li>Yohann a supprimer plein de code dans ce projet !</li>
+<li>Hafid remarque qu&rsquo;il a encore du mal à comprendre le <code>this</code> en JavaScript.</li>
+</ul>
+
+<p>Ce matin on va regarder le drag&amp;drop qu&rsquo;a fait Hafid. Mode Lecture de code.</p>
+
+<p>Debrief.</p>
+
+<ul>
+<li>Cherché notre chemin dans le code d&rsquo;un projet qu&rsquo;on ne connait pas tous.</li>
+<li>C&rsquo;est bien de partir de ce que l&rsquo;on voit à l&rsquo;écran plutôt que de partir dans le fond du code tout de suite.</li>
+<li>Renomé des variables pour rendre le code plus claire (geste: renomage, matière: variable).</li>
+<li>Revisité le SRP(Single Responsability Principe), mais on a pas pu faire d&rsquo;extract méthode : on ne connais pas assez MétéorJS.</li>
+<li>Vu en JavaScript:
+
+<ul>
+<li>la différence entre <code>let</code> et <code>var</code></li>
+<li>la syntax ES6 des fonctions anonymes <code>[1,2,3].forEach((element) =&gt; { console.log(element); });</code></li>
+<li>L&rsquo;usage de la fonction <code>[1, 2, 3].map((element) =&gt; { element + 1 })</code></li>
+</ul></li>
+<li>Hafid se demande l&rsquo;utilité de cette syntaxe.</li>
+<li>Vu un peu le code qui fait du drag &amp; drop en JavaScript.</li>
+</ul>
+
+<h2 id="cette-après-midi">Cette après midi</h2>
+
+<p>On pourrais jeter un coup d&rsquo;oeil à Framadate.
+On essaie d&rsquo;ajouter une fonctionnalité suggérée : <a href="https://framagit.org/framasoft/framadate/issues/188">ajouter un bouton de copy to clipboard</a></p>
+
+<p>1er debrief</p>
+
+<ul>
+<li>On a réussi à trouver l&rsquo;endroit où il faudrait intervenir.</li>
+<li>C&rsquo;est cool de faire ce genre d&rsquo;exercice, c&rsquo;est lié au réel.</li>
+<li>Lu un peu de php.</li>
+<li>Re-utilisé <code>grep -r &quot;Phrase avec des mots&quot; repertoire/</code>.</li>
+<li>On a réfléchi au chemin que nous voulions prendre.</li>
+<li>Il a fallu une bonne demie-heure pour arriver au moment où on a besoin d&rsquo;executer le projet pour vérifier que nous avons un impact dessus.</li>
+</ul>
+
+<p>2eme debrief</p>
+
+<ul>
+<li>On fait un peu de Docker, ça n&rsquo;a pas l&rsquo;air trop complexe.</li>
+<li>La mise en place d&rsquo;un environnement pour travailler sur un nouveau projet semble toujours un peu compliqué</li>
+<li>Yannick parle beaucoup, il est en mode explication.</li>
+<li>Yannick à un doute sur l&rsquo;aspect pédagogique de l&rsquo;approche.</li>
+<li>Est-ce que les rookies apprennent quelque chose ?</li>
+<li>Ça serais bien d&rsquo;essayer de passer plus vite sur la mise en oeuvre de Docker.</li>
+<li>On a aussi revue la liste des points «par Yannick» sur comment on apprend un langage.</li>
+<li>Apparement l&rsquo;explication sur ce point évolue dans le temps.</li>
+<li>Tout ça reste intéressant.</li>
+</ul>
+
+<p>3eme debrief</p>
+
+<ul>
+<li>Yannick est fatigué.</li>
+<li>Difficulté pour avancer dans l&rsquo;installation de l&rsquo;environnement pour executer le code framadate en développement.</li>
+<li>Yannick déçu de ne pas avoir pu faire de pull/merge request sur framadate</li>
+<li>Yannick se pose des questions sur les vertus pédagogique de l&rsquo;après midi</li>
+<li>C&rsquo;est mieux d&rsquo;arriver avec un environnement en capacité de tourner. Mais ça fait passer à coté de l&rsquo;apprentissage de «comment on fait pour construire un environnement».</li>
+<li>On pourrais trouver des setups facile à mettre en place pour apprendre.</li>
+<li>Un setup facile, c&rsquo;est:
+
+<ul>
+<li>Un bon README.</li>
+<li>Un premier essai (préalable) réussi.</li>
+<li>Avec un langage connu.</li>
+</ul></li>
+<li>Cette après midi on a multiplié les difficultés, les trucs à apprendre : php et son contexte + le contexte projet de Framadate.</li>
+<li>Être plus précis sur ce qu&rsquo;il peut se passer.</li>
+<li>Pour apprendre à faire des setup de projet, on pourrait utiliser un format :
+
+<ul>
+<li>Une cible est affiché, et chacun essaie de l&rsquo;atteindre</li>
+<li>Partir d&rsquo;un fichier Docker très simple (un os) puis ajouter au fur et à mesure.</li>
+</ul></li>
+<li>Faut-il, comme pour VIM, Git, Tmux, figer les outils et imposer l&rsquo;usage de Docker ? Oui.</li>
+<li>C&rsquo;est peut-être une bonne idée de faire une cuisine sur un Dockerfile.</li>
+<li>Devoir à la maison, installation de docker pour tout le monde.</li>
+<li>Comment rendre une phase d&rsquo;exploration pédagogiquement intéressante ?</li>
+<li>La <a href="https://hub.docker.com/r/composer/composer/">documentation de l&rsquo;image Docker de Composer</a> est vraiment bien faite.</li>
+<li>La doc de cette image est mieux que la doc du site officiel.</li>
+<li>C&rsquo;étais chouette de revoir un schéma d&rsquo;architecture sur qui parle à qui.</li>
+</ul>
+
+<article>
+
+
+</html>
+

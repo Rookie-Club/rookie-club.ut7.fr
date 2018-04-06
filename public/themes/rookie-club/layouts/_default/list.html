@@ -1,0 +1,9 @@
+{{ partial "header" . }}
+
+<ul>
+  {{ range .Data.Pages.ByDate.Reverse }}
+  <li><a href="{{ .Permalink}}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+
+{{ partial "footer" . }}

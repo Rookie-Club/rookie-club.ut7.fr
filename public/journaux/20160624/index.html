@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html lang="fr">
+  <meta charset="utf-8">
+  <title>Rookie Club</title>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <header><a href="/"><h1>Rookie Club</h1></a></header>
+
+
+
+
+<article>
+
+<h1>
+  Session du 24 juin 2016
+  
+</h1>
+
+
+
+<h2 id="participants">Participants</h2>
+
+<ul>
+<li>Pierre (en stage de 3eme pendant qu&rsquo;il est en 4eme)</li>
+<li>Simon</li>
+<li>Hafid</li>
+<li>Yannick</li>
+<li>Yohann (un poil en retard)</li>
+</ul>
+
+<h2 id="les-nouveautés">Les nouveautés</h2>
+
+<ul>
+<li>Hafid a passé un entretien, et a reçu une proposition de mission pour juillet, à suivre.</li>
+<li>Simon à encore fait un peu de C, et surtout fait de l&rsquo;admin Sys (pour les serveur minecraft).</li>
+<li>Simon a reçu les capteurs pour faire la station météo.</li>
+<li>Yannick a commencé à regarder comment faire du C arduino en dehors de l&rsquo;arduino. L&rsquo;idée serait de faire du TDD sur le pseudo-C++ qui sert à programmer ces cartes.</li>
+<li>Yannick fait un peu moins de fautes aujourd&rsquo;hui.</li>
+<li>Yohann a fait des templates Prestashop, et fait du Pandas.</li>
+</ul>
+
+<h2 id="ce-matin">Ce matin</h2>
+
+<p>On va faire un <a href="http://codingdojo.org/kata/Minesweeper/">kata démineur</a></p>
+
+<ul>
+<li>Hafid a posé les bases tout seul.</li>
+<li>On a continuer en Randori.</li>
+<li>Et Yannick à pris 10 minutes pour refactorer et parler de responsabilité (Single Responsability Principle), et du principe de revenir à un niveau fonctionnel (métier) avant de replonger dans le code.</li>
+<li>En css <code>border-style: inset</code> et <code>border-style: outset</code>.</li>
+<li>«Quand on veux ajouter un évènement <code>onclick</code> sur chaque élément d&rsquo;un tableau» est plus clair dans l&rsquo;objectif que de dire «Quand on veux ajouter un évènement <code>onclick</code> sur un tableau, il faut faire une boucle» (illustration du principe de revenir à un niveau fonctionnel).</li>
+<li>En JavaScript <code>!true == false</code>.</li>
+<li>En JavaScript, une question en suspens <code>==</code> versus <code>===</code> ?</li>
+<li>On peut célébrer qu&rsquo;Hafid à bati la strucutre HTML + css + JavaScript assez rapidement et en séparant bien les responsabilités (chacun dans son fichier).</li>
+<li>En JavaScript <code>this.classList.contains(&quot;uneClasse&quot;)</code></li>
+<li>La boucle JavaScript <code>for (element in list)</code> pose un problème quand on parcour une <code>HTMLCollection</code></li>
+<li>Les Rookies semblent fatigué (ça fait deux semaines de suite, c&rsquo;est l&rsquo;été ?) &ndash;Yannick</li>
+</ul>
+
+<h2 id="cette-après-midi">Cette après midi</h2>
+
+<p>Ce qu&rsquo;on a fait
+- Yannick à posé une grille de base
+- Nous avons définie ensemble les fonctionnalitées manquantes
+- Tirer au hasard les fonctionnalités que chacun allez réaliser
+- Celle pour une nouvelle partie n&rsquo;ayant pas été tiré, Nous l&rsquo;avons fait ensemble avant de commencer (Yannick en pilote)
+- Chacun est partie ensuite faire sa fonctionnalité : Yohann «découvrir toutes les cases vides adjacentes», Simon «poser un drapeau», Hafid «indiquer les infos des mines alentours»</p>
+
+<p>Et après ?</p>
+
+<ul>
+<li>Après midi de folie.</li>
+<li>Des difficultés à re-merger les projets (intéressant :-)).</li>
+<li>Hafid aime le format (être tout seul) pour avoir un espace de liberté pour essayer des choses.</li>
+<li>La difficulté dans l&rsquo;exercice c&rsquo;est de trouver par où aller, comment prendre le problème.</li>
+<li>Simon trouve que c&rsquo;est pas si pire, mais à petite dose. C&rsquo;est un moment où on arrive à voir que l&rsquo;on prend pas forcement le bon chemin. Est-ce visible que dans ce format là.</li>
+<li>Ce format permet de se tromper de chemin et de l&rsquo;explorer un peu. <strong>Idée : faire une cuisine avec un rookie comme cuisinier</strong></li>
+<li>Seul face à l&rsquo;ordi, nous avons une forme d&rsquo;intimité confortable &ndash;Hafid.</li>
+<li>Il y a une forme d&rsquo;examen &ndash;Hafid.</li>
+<li>Constat : les rookies ont écrit moins de code «comme des petits fous». Ils ont été plus raisonnable. &ndash;Yannick.</li>
+<li>Autre constat : le code était presque fonctionnel (ça tournais, mais pas comme il faut).</li>
+<li>C&rsquo;est un exercice qu&rsquo;on peut faire chez nous &ndash;Yohann.</li>
+<li>Peut-être qu&rsquo;on pourra se donner des devoirs et les relires (plutôt que de les refaires en live) le vendredi matin suivant ?</li>
+<li><strong>Sans donner de devoir, on pourrais commencer la matinée par lire du code : celui produit qui pose problème, l&rsquo;exercice réalisé en semaine, &hellip;</strong></li>
+<li>Le click-droit sur une page web c&rsquo;est chiant &ndash;Simon.</li>
+<li>On a toujours pas de démineur qui fonctionne bien (pas de détection de fin de partie).</li>
+<li>Mais on a un cheatcode.</li>
+<li>En JavaScript
+
+<ul>
+<li><code>element.getAttribute('mon_attribute');</code>.</li>
+<li><code>element.hasAttribute('mon_attribute') == true</code>.</li>
+<li><code>mon_tableau.includes('un_element') == true</code>.</li>
+<li><code>location.reload()</code>.</li>
+</ul></li>
+<li>Quand tu tape <code>yes</code> dans le terminal, ça part en boucle infini de y (see <code>man yes</code>).</li>
+<li>Deux lignes de garde, et hop on les sort dans une nouvelle fonction <em>geste extract method</em></li>
+</ul>
+
+<article>
+
+
+</html>
+

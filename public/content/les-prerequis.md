@@ -1,0 +1,4 @@
+- Un ordinateur portable.
+- Une clef [SSH](http://fr.wikipedia.org/wiki/OpenSSH) publique.
+- [Git](https://git-scm.com/) installé.
+- Un compte [github](https://github.com), en attendant autre chose.

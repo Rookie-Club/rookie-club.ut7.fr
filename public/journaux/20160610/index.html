@@ -1,0 +1,158 @@
+<!doctype html>
+
+<html lang="fr">
+  <meta charset="utf-8">
+  <title>Rookie Club</title>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <header><a href="/"><h1>Rookie Club</h1></a></header>
+
+
+
+
+<article>
+
+<h1>
+  Session du 10 juin 2016
+  
+</h1>
+
+
+
+<h2 id="participants">Participants</h2>
+
+<ul>
+<li>Simon</li>
+<li>Semia</li>
+<li>Yohann</li>
+<li>Yannick</li>
+<li>Hafid</li>
+</ul>
+
+<h2 id="les-dernières-nouvelles">Les dernières nouvelles</h2>
+
+<ul>
+<li>Yohann a fait du Python avec Pandas (DataSience)</li>
+<li>Yohann a repris un mooc sur Python d&rsquo;OpenClassRoom</li>
+<li>Yohann est perturbé par l&rsquo;architeture d&rsquo;un des exercices proposé (sorte de Robozzle). Trouble entre la notion de carte et de labyrinthe</li>
+<li>Semia va avoir un nouveau binôme</li>
+<li>Semia met en place bootstrap et joue avec la console navigateur, met en place les presenters et autres services object (inspiration Sandy Metz).</li>
+<li>Simon a fait du C avec un ancien de 42 à Gonnesse (et un peu de Arduino)</li>
+<li>Hafid essaie la recursivité avec le <a href="http://codingdojo.org/kata/RomanNumerals/">kata RomanToNumber</a>. Difficulté : boucle infini, erreurs</li>
+<li>Hafid va faire un site d&rsquo;actu politique et de publication d&rsquo;archive</li>
+</ul>
+
+<p>Todo</p>
+
+<ul>
+<li>Stub et mock, ou comment s&rsquo;en passer</li>
+<li>Service object</li>
+<li>Voir du code spaghetti</li>
+</ul>
+
+<h2 id="ce-matin">Ce matin</h2>
+
+<p>30 minutes de cours magistral sur les design pattern et l&rsquo;architecture Client-Server et le pattern MVC.
+!</p>
+
+<ul>
+<li>Hafid nous montre un kata RomanToNumber, avec de la vrai recursivité dedans</li>
+<li>Il arrive à faire la boucle \o/ mais ne traite que les additions</li>
+<li>Il fait ça en 30 minutes</li>
+<li>Le rythme à convenu à Semia</li>
+<li>Le jeu du compilateur marche bien pour Semia (se mettre à la place de la machine et lire le code)</li>
+<li>Comment savoir quel voie prendre ? Comment savoir si c&rsquo;est la bonne façon de faire pour aller au pas suivant ? &ndash;Hafid
+
+<ul>
+<li>Il faut tester plusieurs chose, ne pas hésiter, explorer les pistes &ndash;Yohann</li>
+<li>Faire passer au vert, et c&rsquo;est le refactoring qui peut permettre d&rsquo;ouvrir des voie &ndash;Semia</li>
+</ul></li>
+<li>Peut-être que Yannick devrait laisser quelqu&rsquo;un du groupe expliquer à sa place de temps en temps</li>
+<li>en python : <code>&quot;ABC&quot;[:-1] == &quot;AB&quot;</code></li>
+<li>avec tmux <code>CTRL+t</code></li>
+<li>en vim <code>ci]</code> ou <code>ci[</code></li>
+<li>La recursivité c&rsquo;est : une garde (condition d&rsquo;arrêt), le reste (que l&rsquo;on remet dans la function) et l&rsquo;élément courant.</li>
+<li>Vu la forme <em>boucle</em> avec les <code>for</code> qui parcours une liste, les <code>while</code> qui boucle jusqu&rsquo;à une condition d&rsquo;arrêt, et la récursivité, qui n&rsquo;utilise pas de mot clé du langage, sauf pour construire la garde.</li>
+<li>Yannick célèbre le fait qu&rsquo;Hafid fasse le kata en 30 minutes (même si pas tout à fait fini)</li>
+<li>Yannick célèbre aussi le fait que Yohann n&rsquo;était pas loin de montrer un refactoring vers la récursivité.</li>
+<li>Le format execution en mémoire humaine avec annonce de résultat des tests avant de les executer est très instructif. A refaire.</li>
+<li>C&rsquo;était bien de faire un peu de dessin au tableau pour expliquer des trucs</li>
+</ul>
+
+<h2 id="cet-après-midi">Cet après midi</h2>
+
+<p>On va essayer un truc. 2 groupes de 2, un groupe fait un Kata dans son coin, et présente ensuite le résultat. Pendant ce temps, l&rsquo;autre groupe fait une cuisine sur le même sujet. Ensuite on inverse.</p>
+
+<p>On va faire un <a href="http://codingdojo.org/kata/RomanCalculator/">Kata Roman Calculator</a> en javascript.
+Les groupes : Hafid et Semia, Yohann et Simon. Semia et Hafid parte préparer le kata de leur coté.</p>
+
+<p>Debrief du groupe Simon + Yohann en sortant de la cuisine :</p>
+
+<ul>
+<li>On a fait des tous petits pas, en mode observation</li>
+<li>Ça faisait longtemps que nous n&rsquo;avions pas fait de JavaScript</li>
+<li>Surpise de la direction choisie : ils pensaient faire une version longue : d&rsquo;abord RomanToNumber, puis l&rsquo;addition des nombres arabes, puis remettre en romain (NumberToRoman)</li>
+<li>Structure étrange : faire un objet avec une méthode plus. J&rsquo;aurais plutôt fait une seule méthode</li>
+<li>Si on fait que des additions, c&rsquo;est vrai que c&rsquo;est plus simple d&rsquo;avoir une seule méthode</li>
+<li>C&rsquo;était un peu court pour avoir le temps d&rsquo;aborder les points dur</li>
+<li>Du coup on a réviser les premier pas pour faire des tests en JavaScript</li>
+</ul>
+
+<p>Debief du groupe Hafid + Semia en sortant de la vitrine :</p>
+
+<ul>
+<li>Difficulté de mise en place de l&rsquo;environnement de test, Hafid a essayé de lancer SpecRunner.html avec l&rsquo;adresse <a href="http://localhost">http://localhost</a> &hellip; Semia n&rsquo;avait pas vu.</li>
+<li>Révision de la syntaxe JavaScript, et Jasmine (qui ressemble à du rspec &ndash;Semia)</li>
+<li>Manque de cohérence, dans un test la méthode est appelé avec un entier, dans l&rsquo;autre, avec une chaine &ndash;Yannick</li>
+<li>Le binomage n&rsquo;a pas vraiment fonctionné (pas de dialogue pour choisir une voie)</li>
+<li>Un des interêt de cet exercice est justement de travailler le binomage :-)</li>
+</ul>
+
+<p>Debrief du groupe Semia + Hafid en sortant de la cuisine :</p>
+
+<ul>
+<li>On a refactoré le code pour aller vers la proposition de l&rsquo;énoncé en terme d&rsquo;API. Sorte de notation polonaise inversée.</li>
+<li>commande vim <code>de</code></li>
+<li>Semia s&rsquo;entraine à VIM</li>
+<li>Cool de revoir des objets en JavaScript</li>
+<li>La boucle <code>for</code> en JavaScript</li>
+<li>On peut initialiser la variable compteur dans la boucle directement</li>
+<li>Revoir le <code>this</code> pour manipuler l&rsquo;objet courant</li>
+<li>commande vim <code>fx</code></li>
+</ul>
+
+<p>Debrief du groupe Yohann + Simon en sortant de la vitrine :</p>
+
+<ul>
+<li>On a voulu ajouter d&rsquo;un coup la fonction de RomanToNumber, mais c&rsquo;était trop gros, on a tout supprimer pour revenir au petit pas</li>
+<li>On a empilé les fakes</li>
+<li>Découverte de la boucle <code>for</code> en JavaScript</li>
+<li>le <code>.split()</code> sur une liste</li>
+<li>Revu du <code>.length</code> et non <code>len(truc)</code></li>
+<li>Si on l&rsquo;avait fait en python on serait allé plus loin (en théorie)</li>
+<li>On a appris à supprimer des gros bloc de code (une 10aine de lignes)</li>
+<li>Le binomage a bien marché, nous avions un même plan commun, mais c&rsquo;était pas le bon</li>
+<li>Nous n&rsquo;avons pas trouvé les petits pas pour aller à l&rsquo;idée que nous avions pensé</li>
+<li>Pour executer notre plan, nous avons du faire un grand pas, apparement infranchissable. Du coup retour à l&rsquo;exploration par petit pas.</li>
+</ul>
+
+<p>Ensuite, Yannick prend le clavier pour achever les Rookies par un Kata vitesse grand V et surtout grand n&rsquo;importe quoi.</p>
+
+<ul>
+<li>Peut-être que c&rsquo;était le kata de trop</li>
+<li>C&rsquo;était quand même intéressant de voir Yannick explorer ce kata, même si c&rsquo;était rapide</li>
+<li>Intéressant de voir que c&rsquo;est bien de couper les fichiers pour pas tout mélanger dans le même (test ET code)</li>
+<li>C&rsquo;était 3 katas en un &ndash;Hafid</li>
+<li>C&rsquo;est peut-être intéressant de le faire sur toute la journée en mode fil rouge &ndash;Yannick</li>
+<li>Une journée très intéressante, plein de truc à voir</li>
+<li>Le marteau piqueur c&rsquo;est juste trop fatiguant</li>
+<li>Simon retient plein de blagues parce que c&rsquo;est pas enregistré&hellip;</li>
+</ul>
+
+<p>Un des but du jour était de réviser le SRP(Single Responsability Principle).</p>
+
+<article>
+
+
+</html>
+

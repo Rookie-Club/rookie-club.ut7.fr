@@ -1,0 +1,118 @@
+<!doctype html>
+
+<html lang="fr">
+  <meta charset="utf-8">
+  <title>Rookie Club</title>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <header><a href="/"><h1>Rookie Club</h1></a></header>
+
+
+
+
+<article>
+
+<h1>
+  Session du 20 mai 2016
+  
+</h1>
+
+
+
+<h2 id="participants">Participants</h2>
+
+<ul>
+<li>Hafid</li>
+<li>Yohann</li>
+<li>Simon</li>
+<li>Yannick</li>
+</ul>
+
+<h2 id="depuis-la-dernière-fois">Depuis la dernière fois</h2>
+
+<ul>
+<li>Simon avance sur la station météo, la partie Arduino fonctionne. Il va bientôt brancher une RaspberryPI pour faciliter la connexion aux réseaux.</li>
+<li>Simon a préparé une «vieille page html toute pourri» pour accueillir les infos.</li>
+<li>Yohann a commencé à travailler en freelance pour faire de la dataviz et autres bricole \o/.</li>
+<li>Yohann fait du JavaScript pour améliorer les remonter d&rsquo;information (utilisation de Google Tag Manager).</li>
+<li>Hafid à lu du code de la fourmi de langton</li>
+<li>Hafid voudrais gagner au loto et compte utiliser R pour trouver les bon numéro à partir des données historiques des tirages.</li>
+</ul>
+
+<h2 id="ce-matin">Ce matin</h2>
+
+<p>Hafid fait un kata Fourmi de Langton en JavaScript</p>
+
+<ul>
+<li>Les fonctions c&rsquo;est plus agréable à coder/utiliser/regarder &ndash; Hafid</li>
+<li>Est-ce mieux pour ranger le code ? Il semblerait &ndash; Hafid</li>
+<li>Problème avec le <code>==</code>. Config vim sur la machine d&rsquo;Hafid ? Dans un fichier JavaScript ? Quand on fait une suite de mouvement avant ?</li>
+</ul>
+
+<p>Deuxième partie de matinée, on va lire le code docker</p>
+
+<ul>
+<li>On a parlé de Docker et de virtualisation, Wahou, c&rsquo;est un peu gros.</li>
+<li>On a découvert (ou redécouvert) le Go (langage)</li>
+<li>(re)Vue comment on construit un executable en ligne de commande qui prend des options d&rsquo;execution. Il faut poser les limites d&rsquo;utilisation</li>
+<li>En Go, les fonctions peuvent renvoyer plusieurs valeurs, la dernière sert en général à la gestion d&rsquo;erreur</li>
+<li>commande intrigante : <code>map[string]bool</code> comme un élément de signature de méthode : <code>dispatch = map[string]func(string) (*Node, map[string]bool, error) { ... }</code></li>
+<li>Les variables sont typés et on doit les déclarer, ça change de python et JavaScript</li>
+<li>C&rsquo;était un peu piste noire (nouveau langage, sur un sujet nouveau aussi) &ndash; Yannick</li>
+<li>On a vu l&rsquo;endroit où sont listé les commandes possible du <code>Dockerfile</code></li>
+<li>On a quand même réussi à comprendre un peu le code que l&rsquo;on a lu</li>
+<li>Hafid semble très intéressé par le concept des <em>parsers</em>, une bonne piste à explorer en Kata</li>
+</ul>
+
+<h2 id="après-midi">Après midi</h2>
+
+<p>Sans réseau local, difficile de faire une cuisine, on décide du coup de partir sur chacun fait une résolution du <a href="http://codingdojo.org/kata/Bowling/">kata bowling</a> dans son coin, puis on regarde ensemble le code produit.</p>
+
+<p>Hafid nous montre sont code.</p>
+
+<ul>
+<li>Les tests sont rouges</li>
+<li>refactoring avec pattern de «je sent que c&rsquo;est pas loin la barre verte»</li>
+<li>L&rsquo;api demandée n&rsquo;est pas respecté, calcul des scores par lancé&hellip;</li>
+</ul>
+
+<p>Simon fait de même.</p>
+
+<ul>
+<li>Idem, l&rsquo;API n&rsquo;est pas respecté, ici on attend le nombres de quilles qui tombent sur un lancé</li>
+<li>Beaucoup de code écrit sans test pour le justifier</li>
+<li>Tentative de gestion des manches et des lancés dans le code</li>
+</ul>
+
+<p>Yohann montre à son tour sa version du kata</p>
+
+<ul>
+<li>Un test rouge sur quatre</li>
+<li>le score d&rsquo;un spare est correctement calculé, le test rouge est celui du strike</li>
+<li>Un peu de duplication</li>
+<li>Un mélange entre la gestion technique du calcul et les règles donnent un code un peu embrouillé</li>
+</ul>
+
+<p>Ce qu&rsquo;il c&rsquo;est passé pour chacun dans l&rsquo;après midi</p>
+
+<ul>
+<li>Yannick trouve le format (improvisé) intéressant</li>
+<li>La prochaine fois, il faudra qu&rsquo;au lieu de la présentation/discussion sur le code, ça soit un kata (code live from scratch). Peut-être prévoir un kata différent pour chacun.</li>
+<li>Seul face au clavier, ça permet de faire une sorte d&rsquo;autoévaluation</li>
+<li>Mauvaise lecture de consigne</li>
+<li>Oublier de faire des petits pas n&rsquo;aide pas à avancer</li>
+<li>Pas assez d&rsquo;execution des tests</li>
+<li>Penser trop en amont à la liste des choses nécessaire</li>
+<li>Difficulté de partir de zéro</li>
+<li>Pilotage du code par l&rsquo;API (penser aux types ?). Yohann choisi de faire un tableau de tuple en entrée, ça l&rsquo;amène «automatiquement» à faire une boucle imbriquée.</li>
+<li>Note: on retrouve partout en programmation des <em>varibales</em>, des <em>conditions</em> (<code>if</code> et autres <code>else</code>) et des <em>boucles</em> (<code>for</code>, <code>while</code> et autres recursivités).</li>
+<li>Yohann utilise beaucoup le mode <code>visual</code> pour copier-coller</li>
+<li><code>CTRL+b %</code> pour le split vertical dans tmux</li>
+<li>Hafid est triste d&rsquo;avoir tourné à gauche au lieu de prendre à droite.</li>
+</ul>
+
+<article>
+
+
+</html>
+

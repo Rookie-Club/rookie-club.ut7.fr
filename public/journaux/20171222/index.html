@@ -1,0 +1,121 @@
+<!doctype html>
+
+<html lang="fr">
+  <meta charset="utf-8">
+  <title>Rookie Club</title>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <header><a href="/"><h1>Rookie Club</h1></a></header>
+
+
+
+
+<article>
+
+<h1>
+  Session du 22 décembre 2017
+  
+</h1>
+
+
+
+<h2 id="participantes">Participantes</h2>
+
+<ul>
+<li>Yannick</li>
+<li>Alexandre</li>
+<li>Sakada</li>
+<li>Julien</li>
+<li>Étienne</li>
+<li>Christophe</li>
+<li>Paul</li>
+<li>Sarah</li>
+<li>Isabelle</li>
+<li>Souleyman</li>
+<li>Élodie</li>
+<li>Laurent</li>
+</ul>
+
+<h2 id="les-activités-debief-de-la-journée">Les activités / debief de la journée</h2>
+
+<p>Alexandre et Yannick ont installé Ubuntu sur la nouvelle machine d&rsquo;Alexandre.
+- « C&rsquo;était long » &ndash; Alexandre</p>
+
+<p>Souley et Sarah on mis en place un formulaire dans une application Rails
+- Les champs de formulaire étaient cote à cote, mais pas correct sur un écran moins large.
+- Utilisation de <a href="https://github.com/plataformatec/simple_form">SimpleForm</a>.
+- La grille de <a href="http://getbootstrap.com/">bootstrap</a>, c&rsquo;était un peu compliqué : trop de <code>div</code> dans des <code>div</code>
+- C&rsquo;est plus facile de personnaliser un affichage sans framework css.
+- Tentative d&rsquo;utilisation de <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"><code>flex</code></a> en CSS.
+- Finalement, on a utilisé les <a href="https://developer.mozilla.org/fr/docs/Web/CSS/Requ%C3%AAtes_m%C3%A9dia/Utiliser_les_Media_queries">mediaquery</a>
+- <code>min</code> et <code>max</code> en mediaquery.
+- Expliquer ce qu&rsquo;on connait permet de vérifier qu&rsquo;on connait des choses et qu&rsquo;on a des points à approfondir.
+- Les animations CSS, ça sera pour plus tard.</p>
+
+<p>Isabelle et Christophe ont travaillé sur jQuery.
+- Christophe a poussé Isabelle à faire du jQuery dans une de ces pages.
+- Comment charger la librairie <a href="http://jquery.com/">jQuery</a> ?
+- Attention aux urls quand on affiche une page dans un navigateur en local, avec le protocole <code>file</code>.
+- « Ça fait du bien d&rsquo;être dans une posture de sachant pour une fois » &ndash; Christophe</p>
+
+<p>Christophe a fait un peu de <a href="https://elixir-lang.org/">Elixir</a>.
+- C&rsquo;est un langage fonctionnel construit par un Rubyiste, d&rsquo;où mon choix.
+- Le package manager s&rsquo;appel <code>mix</code> : <a href="https://elixir-lang.github.io/getting-started/mix-otp/introduction-to-mix.html">https://elixir-lang.github.io/getting-started/mix-otp/introduction-to-mix.html</a>
+- Sentiment de plus de proximité avec JavaScript que Ruby. Peut-être parce que j&rsquo;ai créé une fonction anonyme.
+- <code>add = fn a, b -&gt; a + b end; add.(3, 5)</code>
+- la console Elixir <code>iex</code>.
+- <a href="http://try-elixir.herokuapp.com/">console elixir en ligne</a>
+- Est-ce que <code>Ecto</code> est un connecteur base de donnée pour Elixir ?</p>
+
+<p>Paul a essayer de faire du JavaScript moderne dans du Rails moderne.
+- Joue avec <a href="https://github.com/rails/webpacker">webpacker</a>.
+- J&rsquo;ai suivi le tuto de l&rsquo;article Evil Matian : <a href="https://evilmartians.com/chronicles/evil-front-part-1">https://evilmartians.com/chronicles/evil-front-part-1</a>.
+- « Je ne suis pas convaincu de faire du front coté serveur » &ndash; Paul.
+- C&rsquo;est un exercice de veille.
+- Peut-être trop de fichiers de config ?</p>
+
+<p>Julien a montré son code Python de la semaine à Étienne.
+- La sortie graphique est très jolie.
+- Il y a des pièges avec les accents.
+- J&rsquo;ai appris à faire du python (en une semaine).
+- Les commandes <code>cd</code> et <code>ls</code> dans le terminal.
+- On peut échapper un espace dans le terminal <code>Google\ Drive</code>.</p>
+
+<p>Sakada et Élodie on fait des <code>alias</code> dans le terminal de Sakada.
+- Retour à la maison <code>cd</code>.
+- En shell, <code>mavar = 12</code> ne fonctionne pas, il faut <code>mavar=12</code>.
+- Sa rappel qu&rsquo;il faut apprendre à utiliser la ligne de commande.</p>
+
+<p>Sakada à avancé sur son parcour <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>.
+- Il a choisi de faire la page tribute sur <a href="https://fr.wikipedia.org/wiki/Aaron_Swartz">Aaron Swartz</a>
+- « Consistency is the key »
+- Utilisation de <a href="https://codepen.io/#">codepen</a></p>
+
+<p>Sakada, Élodie, Yannick, Julien ont fait un Kata PokerHand en JavaScript  NodeJS.
+- On a utilisé <a href="http://mochajs.org/">mocha</a> plutôt que <a href="https://github.com/mhevery/jasmine-node">Jasmine</a>, sur node ça fonctionne mieux.
+- C&rsquo;est difficile de penser aux tests d&rsquo;abord.
+- On a parlé des deux approches : top-down vs bottom-up.
+- Il y avait une envie à la base, qui n&rsquo;a en fait rien à voir avec le kata.</p>
+
+<p>Laurent, Sakada, Élodie, Yannick, Paul, Christophe, Étienne, Isabelle ont participé à une séance de slow debug sur du code de production JavaScript.
+- C&rsquo;est un <a href="https://github.com/sgmap/syso/issues/144">bug</a> sur l&rsquo;application <a href="https://embauche.beta.gouv.fr/">embauche.beta.gouv.fr</a>,
+- le <a href="https://github.com/sgmap/syso">code source</a>
+- C&rsquo;était chouette d&rsquo;avoir pu réduire le cas de test de reproduction du bug.
+- Intéressant de prendre des notes de débug, un journal de debug.
+- « Faire un bon rapport de bug, c&rsquo;est un art en soi » &ndash; Laurent
+- il y a deux composante dans un rapport de bug : des informations pour la
+  reproductibilité, et savoir parlé de l&rsquo;importance dudit bogue.
+- « le rookie club mène l&rsquo;enquête ».</p>
+
+<h2 id="á-partager">Á partager</h2>
+
+<ul>
+<li><a href="http://www.commandlinefu.com/commands/browse">http://www.commandlinefu.com/commands/browse</a></li>
+<li><a href="http://www.viensvoirmontaf.fr/">http://www.viensvoirmontaf.fr/</a></li>
+</ul>
+
+<article>
+
+
+</html>
+

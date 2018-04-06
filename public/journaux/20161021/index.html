@@ -1,0 +1,124 @@
+<!doctype html>
+
+<html lang="fr">
+  <meta charset="utf-8">
+  <title>Rookie Club</title>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <header><a href="/"><h1>Rookie Club</h1></a></header>
+
+
+
+
+<article>
+
+<h1>
+  Session du 21 octobre 2016
+  
+</h1>
+
+
+
+<h2 id="participants">Participants</h2>
+
+<ul>
+<li>[[Hafid]]</li>
+<li>[[Yannick]]</li>
+<li>[[Simon]]</li>
+<li>[[Yohann]]</li>
+</ul>
+
+<h2 id="depuis-la-dernière-fois">Depuis la dernière fois</h2>
+
+<ul>
+<li>Le wiki commence à être un vrai wiki avec des pages pour les langages, les
+outils, les personnes.</li>
+<li>Ce soir il y a un meetup <a href="https://www.meetup.com/fr-FR/Objets-3D-Programmables-app-objets/events/234970346/">Programmons ensemble des objets imprimables en
+3D</a>.</li>
+<li>[[Simon]] découvre que certaines évidentes pour lui ne le sont pas forcement
+pour les autres.</li>
+<li>[[Simon]] et [[Hafid]] ont essayé de faire une [[fourmi de langton|/sujets_exercices/langton]] en
+[[JavaScript]].</li>
+<li>[[Hafid]] a fait de la peinture.</li>
+<li>[[Hafid]] a tenté de faire pas à pas, mais il en a oublié qu&rsquo;en objet il faut
+modifier un état (et donc modifier les attributs).</li>
+<li>L&rsquo;affichage ne fonctionnait pas, par contre les tests unitaires étaient vert.</li>
+<li>[[Yohann]] a exploré la librairire <a href="http://www.numpy.org/">Numpy</a></li>
+</ul>
+
+<h2 id="ce-matin">Ce matin</h2>
+
+<p>On regarde ce que [[Hafid]] à produit.</p>
+
+<ul>
+<li>Beaucoup de manipulation [[git]] pour replacer le code qu&rsquo;Hafid a produit sur
+la mauvaise branche.</li>
+<li>On re-attache une branche à sa référence sur origin</li>
+<li><code>git reset --hard HEAD^</code> <em>peut modifier le code</em></li>
+<li><code>git branch --set-upstream=origin/mabranch mabranch</code></li>
+<li><code>git branch --unset-upstream</code></li>
+<li><code>git branch -vv</code></li>
+<li><code>git cherry-pick [sha1]</code> à revoir. <em>peut modifier le code</em></li>
+<li><code>git log --decorate --graph --branches --pretty=oneline</code></li>
+<li><code>git reflog</code></li>
+<li><code>git reset --hard HEAD^</code> = !(<code>git commit -m &quot;mon commit&quot;</code>)</li>
+<li><code>git reset --soft HEAD^</code> vs <code>git reset --hard HEAD^</code> ?</li>
+<li>Ça fait quoi le <code>git reset</code> sans le <code>HEAD</code> ? Sans le <code>^</code> ?</li>
+<li><code>git reset --opt [cible sur laquelle on veux se repositionner]</code></li>
+</ul>
+
+<p>Ensuite, on a corrigé et fait avancer un peu le code et la fourmi</p>
+
+<ul>
+<li>C&rsquo;est Yannick qui a beaucoup pris le clavier, du coup, on avancé</li>
+<li>Il est inutile de charger des fichiers dont nous n&rsquo;aurons pas besoin (le
+<code>binding.js</code> dans les tests, le <code>spec/langton_spec.js</code> dans la page de
+production <code>index.html</code>).</li>
+<li>En cas de problème c&rsquo;est une bonne idée de revenir en arrière plutôt que
+d&rsquo;ajouter quelque chose.</li>
+<li>Impression d&rsquo;avoir des doublons de fonctions entre le fichier <code>bindings.js</code>
+et <code>spec/langton_spec.js</code>.</li>
+<li>Cette impression est juste, mais c&rsquo;est normal de tester ce que l&rsquo;on cherche à
+mettre en place.</li>
+</ul>
+
+<h2 id="cette-après-midi">Cette après midi</h2>
+
+<p>On va essayer de faire un [Kata PokerHands]</p>
+
+<ul>
+<li>Ça faisait longtemps qu&rsquo;on avait pas fait de [[Python]]</li>
+<li>«J&rsquo;ai comme l&rsquo;impression que je préfère le Python» &ndash;Simon</li>
+<li>«On est bien parti pour le terminer» &ndash;Hafid</li>
+</ul>
+
+<p>Après 20 minutes de plus</p>
+
+<ul>
+<li>On a des soucis pour définir le chemin à suivre, le plan.</li>
+<li>On apprend à identifier les problèmes.</li>
+<li>Yannick nous montre une décomposition du problème avec une identification des
+objets.</li>
+<li>On parle de la relation entre les objets et de l&rsquo;échelle de ces relations.</li>
+<li>Rappel que les tests sont écrit dans une classe, et que la classe permet
+d&rsquo;intéragir avec d&rsquo;autres objets.</li>
+</ul>
+
+<p>Et après 20 minutes de plus encore, et une fin de journée.</p>
+
+<ul>
+<li>«Pour finir, il va falloir jouer les prolongations» &ndash;Hafid.</li>
+<li>Fin de journée, tout le monde est fatigué.</li>
+<li>Quand on décompose un problème, c&rsquo;est important de savoir éliminer les choses inutiles.</li>
+<li>Pas la peine de mettre les mains sur le clavier si on ne sait pas ce qu&rsquo;on veut faire.</li>
+<li>Il y a une différence entre réfléchir à la solution et décomposer le problème.</li>
+<li>La syntaxe objet commençant à rentrer, on aborde du coup des soucis de conception.</li>
+<li>C&rsquo;est important de trouver un prochain pas suffissament simple pour pouvoir le faire sans encombre.</li>
+<li>C&rsquo;est une des plus grande difficultés en programmation.</li>
+</ul>
+
+<article>
+
+
+</html>
+

@@ -1,0 +1,95 @@
+<!doctype html>
+
+<html lang="fr">
+  <meta charset="utf-8">
+  <title>Rookie Club</title>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <header><a href="/"><h1>Rookie Club</h1></a></header>
+
+
+
+
+<article>
+
+<h1>
+  Session du 17 février 2016
+  
+</h1>
+
+
+
+<p>Aujourd&rsquo;hui on accueil Yohann pour une matinée de test. Yohann utilise pour l&rsquo;instant Windows, il utilise PyCharm, et fait surtout du Python, et un peu de R.</p>
+
+<h2 id="ce-que-nous-pourrions-faire-ce-matin">Ce que nous pourrions faire ce matin</h2>
+
+<ul>
+<li>Lire du code sur OpenFisca (un commit, et une classe)</li>
+<li>Revoir les objets dans un <a href="http://codingdojo.org/kata/Nim/">kata jeu de nim</a></li>
+</ul>
+
+<h2 id="ce-qui-s-est-passé-ce-matin">Ce qui s&rsquo;est passé ce matin</h2>
+
+<h3 id="on-lit-du-code-d-openfisca">On lit du code d&rsquo;OpenFisca</h3>
+
+<p><a href="https://raw.githubusercontent.com/openfisca/openfisca-france/8156b41a4a1e32587ce5b8de8fb3ae7787f2bc87/openfisca_france/model/prelevements_obligatoires/impot_revenu/ir.py">Source</a></p>
+
+<ul>
+<li>On peut mettre des espaces autour des points (et avant les parenthèses) quand on appel une méthode d&rsquo;un objet</li>
+<li>mais c&rsquo;est vraiment pas beau (c&rsquo;est pour ça qu&rsquo;on met des espaces autour des opérateurs, et pas des points et parenthèses)</li>
+<li>La boucle for avec deux éléments <code>for element1, element2 in [[1,2], [4,5]]:</code></li>
+<li>C&rsquo;est quoi tmux ? piste : <a href="https://tmux.github.io/">https://tmux.github.io/</a></li>
+<li>Revue l&rsquo;utilsation des <code>sorted(montableau)</code> et <code>reversed(montableau)</code> qui renvoie un nouveau tableau trié ou à l&rsquo;envers</li>
+<li>à ne pas confondre avec le <code>montableau.revese()</code> qui ne fait pas la même chose : il inverse le tableau (sans en créer un nouveau)</li>
+<li>Vu les structure de test : <code>mavar is not None</code> équivalent de <code>mavar != None</code></li>
+<li>Le <em>cast</em> en booléen : <code>bool(mavar)</code></li>
+</ul>
+
+<h3 id="on-fait-un-jeu-de-nim-avec-un-objet">On fait un jeu de nim avec un objet</h3>
+
+<ul>
+<li>Structurer le jeu avec des objets</li>
+<li>Découvert des commandes de base en VI pour Yohann :
+
+<ul>
+<li><code>x</code> pour supprimer un élément</li>
+<li><code>b</code> pour reculer d&rsquo;un mot</li>
+<li><code>w</code> pour avancer au prochain mot</li>
+<li><code>e</code> pour avancer à la fin du mot</li>
+<li><code>i</code> pour passer en mode insertion</li>
+<li><code>A</code> pour passer en mode insertion à la fin de la ligne courante</li>
+</ul></li>
+<li>Le chemin de réalisation par l&rsquo;impératif est mieux compris</li>
+<li>On arrive plus vite à la situation de nettoyer des duplications</li>
+<li>On a vu un objet de plus</li>
+<li>Pas encore à l&rsquo;aise pour penser directement en objet</li>
+<li>Plus on arrive à aller rapidement sur l&rsquo;impératif, plus rapidement on arrive à passer au objet</li>
+<li><a href="https://github.com/ut7/rookie-club/commit/5ea0a0ee09f3061f2e5ac916f37cb7c624950a0c">La première étape du code</a></li>
+<li><a href="https://github.com/ut7/rookie-club/commit/abb9a0ce998cbc6b760f8e0261ff73b27c3acb38">le reusinage avec un objet</a></li>
+</ul>
+
+<h2 id="ce-que-nous-pourrions-faire-cette-après-midi">Ce que nous pourrions faire cette après midi</h2>
+
+<ul>
+<li>Faire des objets</li>
+<li>Refaire le jeu de nim directement avec un objet (avec Yannick)</li>
+<li>Refaire le kata diamant, directement avec un objet (seul avec une démo après)</li>
+</ul>
+
+<h2 id="ce-qui-se-passe-dans-l-après-midi">Ce qui se passe dans l&rsquo;après midi</h2>
+
+<ul>
+<li>On refait le nim directement en objet (et rien d&rsquo;autre finalement)</li>
+<li>On a compris la différence entre les fonctions et les méthodes \o/</li>
+<li>On a compris la différence entre les paramètres et les attributs \o/</li>
+<li>On a parlé assembleur et zone mémoire (avec Manu)</li>
+<li>On a revu les exceptions</li>
+<li>On a fini un beau jeu de nim en console \o/</li>
+<li><a href="https://github.com/ut7/rookie-club/commit/fbec91c1459fcf47f77cbbeabef5b1c78d399db4">Le code produit</a></li>
+</ul>
+
+<article>
+
+
+</html>
+

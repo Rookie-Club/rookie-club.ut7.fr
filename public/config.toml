@@ -1,0 +1,7 @@
+baseURL = "/"
+languageCode = "fr-FR"
+title = "Rookie Club"
+theme = "rookie-club"
+DefaultContentLanguage = "fr"
+disableKinds = ["sitemap"]
+
