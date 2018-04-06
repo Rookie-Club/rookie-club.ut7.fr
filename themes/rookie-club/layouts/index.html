@@ -1,11 +1,7 @@
 {{ partial "header" . }}
 
 <article>
-{{ range .Data.Pages }}
-{{if eq .Type "index" }}
 {{.Content}}
-{{end}}
-{{ end }}
 
 <h2>Les dernières sessions</h2>
 
