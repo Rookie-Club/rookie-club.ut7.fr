@@ -6,10 +6,20 @@
     <description>Recent content on Rookie Club</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Sat, 22 Aug 1970 14:40:06 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 1970 14:40:13 +0100</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Session du 13 Avril 2018</title>
+      <link>/journaux/20180413/</link>
+      <pubDate>Sat, 22 Aug 1970 14:40:13 +0100</pubDate>
+      
+      <guid>/journaux/20180413/</guid>
+      <description>Participantes  Yannick Christophe Élisabeth Éric Alexandre Josée Souleymane Sarah Élodie Thomas  Les activités / debrief de la journée Élisabeth, Éric, Alexandre, Christophe, Yannick, Souleymane, Sarah font un kata Roman to Number;
+ On a fait une introduction à la métaprogrammation (à la fin), en ruby define_method(&amp;quot;le_nom_de_method&amp;quot;, un_parametre) { return &amp;quot;a value&amp;quot; * 12 } On a executé ssh-keygen et copié la clé public sur le compte Github d&amp;rsquo;Alexandre pour pouvoir cloné le repo Kata sans avoir à taper un mot de passe.</description>
+    </item>
     
     <item>
       <title>Session du 6 Avril 2018</title>
