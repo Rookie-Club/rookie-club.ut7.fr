@@ -2,3 +2,4 @@
 - Une clef [SSH](http://fr.wikipedia.org/wiki/OpenSSH) publique.
 - [Git](https://git-scm.com/) installé.
 - Un compte [github](https://github.com), en attendant autre chose.
+- Regarder les vidéos de Matti Schneider sur [comment travailler professionnellement avec des post-its](https://www.youtube.com/watch?v=V_v89gVxPac&list=PLhQ0uCLmau9E7LCbA4LD47z-fcJxAlr8U)
