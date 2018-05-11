@@ -2,4 +2,4 @@
 
 hugo
 cd public && git add --all && git commit -m "Publication" && cd ..
-git push ut7 rookieclub.ut7.fr:master
+git push ut7 publication:master
