@@ -6,10 +6,19 @@
     <description>Recent content on Rookie Club</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Sat, 22 Aug 1970 14:41:44 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 1970 14:41:51 +0100</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Session du 11 Mai 2018</title>
+      <link>/journaux/20180511/</link>
+      <pubDate>Sat, 22 Aug 1970 14:41:51 +0100</pubDate>
+      
+      <guid>/journaux/20180511/</guid>
+      <description> Participantes  Yannick Camille Élodie Élisabeth Alexandre  Les activités / debrief de la journée À partager </description>
+    </item>
     
     <item>
       <title>Session du 4 Mai 2018</title>
@@ -933,7 +942,7 @@ Un jeu qui devient payant - http://railsforzombies.org/</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/les-prerequis/</guid>
-      <description> Un ordinateur portable. Une clef SSH publique. Git installé. Un compte github, en attendant autre chose.  </description>
+      <description> Un ordinateur portable. Une clef SSH publique. Git installé. Un compte github, en attendant autre chose. Regarder les vidéos de Matti Schneider sur comment travailler professionnellement avec des post-its  </description>
     </item>
     
     <item>
