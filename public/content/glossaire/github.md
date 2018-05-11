@@ -1,5 +1,0 @@
----
-title: Github
----
-
-~~Vous êtes dessus~~. C'est un site pour héberger des projets Git. Certains parle du réseau social des personnes pratiquant la programmation. Mais on peut y retrouver bien plus que des programmes.
