@@ -2,4 +2,4 @@
 
 hugo
 cd public && git add --all && git commit -m "Publication" && cd ..
-git push ut7 publication:master
+git push -f ut7 publication:master
