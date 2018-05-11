@@ -6,10 +6,21 @@
     <description>Recent content in Journauxes on Rookie Club</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Sat, 22 Aug 1970 14:40:13 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 1970 14:41:44 +0100</lastBuildDate>
     
 	<atom:link href="/journaux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Session du 4 Mai 2018</title>
+      <link>/journaux/20180504/</link>
+      <pubDate>Sat, 22 Aug 1970 14:41:44 +0100</pubDate>
+      
+      <guid>/journaux/20180504/</guid>
+      <description>Participantes  Élodie Élisabeth Éric Josée Yannick  Les activités / debrief de la journée Élodie met en place un VPN pour pouvoir travailler en remote, elle nettoie aussi ces notes sur le contexte de AF83.
+Éric, Élodie, Josée et Yannick font un kata RomanToNumber en Ruby:
+ On a parlé de plein d&amp;rsquo;autre trucs, comme les théories de Yannick autour de l&amp;rsquo;apprentissage de la programmation. On a vu la distinction entre apprendre la programmation et apprendre un langage.</description>
+    </item>
     
     <item>
       <title>Session du 13 Avril 2018</title>
