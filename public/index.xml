@@ -17,7 +17,8 @@
       <pubDate>Sat, 22 Aug 1970 14:41:51 +0100</pubDate>
       
       <guid>/journaux/20180511/</guid>
-      <description> Participantes  Yannick Camille Élodie Élisabeth Alexandre  Les activités / debrief de la journée À partager </description>
+      <description>Participantes  Yannick Camille Élodie Éric Élisabeth Alexandre Souleymane Sakada  Les activités / debrief de la journée Éric, Élodie, Alexandre, Camille, Élisabeth, Yannick font une pull request sur le projet plots2 de publiclab;
+ C&amp;rsquo;est pratique d&amp;rsquo;avoir une regle cohérente dans l&amp;rsquo;équipe pour écrire des messages de commit. merge versus rebase dans Git, notion toujours pas évidente. bundle install --path=.bundle. On a vu l&amp;rsquo;utilisation de bundler git remote -v git branch -vvvvv DVCS vs VCS On a parlé un peu de l&amp;rsquo;histoire des gestionnaires de version (CVS, SubVersion, Clearcase, Darc, Bazar, Mercurial, et Git).</description>
     </item>
     
     <item>
