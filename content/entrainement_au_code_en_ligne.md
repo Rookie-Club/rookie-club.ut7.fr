@@ -38,6 +38,7 @@ _les cours peuvent comporter des exercices_
 - https://www.playcodemonkey.com/
 - http://tryruby.org
 - http://asm.sourceforge.net/intro/Assembly-Intro.html
+- https://www.reddit.com/r/dailyprogrammer/ (Des défis quotidien, ou presque)
 
 Des outils de programmation qui aide pour démarrer
 - http://www.pythontutor.com/
