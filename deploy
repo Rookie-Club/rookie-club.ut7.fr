@@ -9,4 +9,5 @@ cd public && git add --all && git commit -m "Publication" && cd ..
 git push -f git@ut7.fr:rookieclub.ut7.fr publication:master
 
 rm -Rf public
+git worktree prune
 git branch -D publication
