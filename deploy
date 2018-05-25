@@ -1,5 +1,9 @@
 #!/bin/sh
 
+rm -Rf public
+git worktree add -B publication public git@ut7.fr:rookieclub.ut7.fr/master
+
 hugo
+
 cd public && git add --all && git commit -m "Publication" && cd ..
-git push -f ut7 publication:master
+git push -f git@ut7.fr:rookieclub.ut7.fr publication:master
