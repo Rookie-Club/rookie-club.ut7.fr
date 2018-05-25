@@ -1,6 +1,5 @@
 #!/bin/sh
 
-git worktree remove publication
 rm -Rf public
 git worktree add -B publication public git@ut7.fr:rookieclub.ut7.fr/master
 
