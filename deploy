@@ -8,7 +8,7 @@ hugo
 cp Dockerfile public
 cp docker-compose.yml public
 
-cd public && git add --all && git commit -m "Publication" && cd ..
+cd public && git add --all && git commit -m "Publication du `date +'%d %b %Y'`" && cd ..
 git push -f git@ut7.fr:rookieclub.ut7.fr publication:master
 
 rm -Rf public
