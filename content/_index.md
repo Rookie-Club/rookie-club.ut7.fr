@@ -20,4 +20,3 @@ envoyez nous en message [training@ut7.fr](mailto:training@ut7.fr).
 
 Au rookie club vous aurez besoin de [prérequis techniques](les-prerequis). Certains ont commencé un [glossaire](glossaire), et d'autres, une page sur les [outils](outils).
 
-À force de parler de recrutement, nous avons commencé à compiler des informations sur une page dédiée regroupant des [articles autour du recrutement](article-autour-du-recrutement).
