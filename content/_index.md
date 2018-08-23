@@ -18,5 +18,5 @@ envoyez nous en message [training@ut7.fr](mailto:training@ut7.fr).
 
 ## Le Rookie Club
 
-Au rookie club vous aurez besoin de [prérequis techniques](les-prerequis). Certains ont commencé un [glossaire](glossaire).
+Au rookie club vous aurez besoin de [prérequis techniques](les-prerequis).
 
