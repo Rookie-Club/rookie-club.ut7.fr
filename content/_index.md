@@ -7,15 +7,6 @@ Bienvenu sur le journal du Rookie club. C'est une [communauté d'apprentissage](
 La communauté est accueillie chez [/ut7](https://ut7.fr/blog/2016/06/02/passe-a-la-boutique.html).
 
 **La communauté partage maintenant sur une autre plateforme : [rookieclub.org](https://rookieclub.org)**
-## Participer
-
-Si vous voulez :
-
-- participer en tant qu'apprenant·e
-- recruter un·e développeur·se formé·e aux bonnes pratiques
-- juste en savoir plus
-
-envoyez nous en message [training@ut7.fr](mailto:training@ut7.fr).
 
 ## Le Rookie Club
 
