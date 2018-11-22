@@ -2,16 +2,6 @@
 
 <article>
 {{.Content}}
-
-<h2>Les dernières sessions</h2>
-
-<ul>
-  {{ range first 20 .Data.Pages.ByDate.Reverse }}
-  <li><a href="{{ .Permalink}}">{{ .Title }}</a></li>
-  {{ end }}
-</ul>
-
-<a href="/journaux">La liste complète des sessions</a>
 </article>
 
 {{ partial "footer" . }}

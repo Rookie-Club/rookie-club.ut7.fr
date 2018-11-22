@@ -7,8 +7,3 @@ Bienvenu sur le journal du Rookie club. C'est une [communauté d'apprentissage](
 La communauté est accueillie chez [/ut7](https://ut7.fr/blog/2016/06/02/passe-a-la-boutique.html).
 
 **La communauté partage maintenant sur une autre plateforme : [rookieclub.org](https://rookieclub.org)**
-
-## Le Rookie Club
-
-Au rookie club vous aurez besoin de [prérequis techniques](les-prerequis).
-
